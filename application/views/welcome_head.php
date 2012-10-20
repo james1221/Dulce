@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Welcome to CodeIgniter</title>
-	<style type="text/css">
-
-	
-	</style>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("*").hide();
+  });
+});
+</script>
 </head>
+
 <body>
-
-<div id="container">
-	<h1>Head</h1>
-
-	<div id="body">
-		<p>Body Head	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
-</div>
-
+<h2>This is a heading</h2>
+<p>This is a paragraph.</p>
+<p id="test">This is another paragraph.</p>
+<button>Click me</button>
 </body>
+
 </html>
