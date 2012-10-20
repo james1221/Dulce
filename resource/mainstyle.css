@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+@font-face {
+	font-family: "Lao UI";
+	src: url('LaoUI.ttf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Lao UI";
+	src: url('LaoUIb.ttf');
+	font-weight: bold;
+}
+
+body {
+	font-size: 12px;
+	margin: 0;
+	font-family: "Lao UI", "Arial", "sans-serif";
+	background-color:#E0E0E0;
+}
+
+div#centeringDiv {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 980px;
+	min-height: 60px;
+	background-color: white;
+}
+
+/* header styles */
+div#header {
+	height: 240px;
+	position: relative;
+	/*background-image: url('../images/SAM_0817.JPG');*/
+	background-color: #692079;
+}
+
+
+div#headerLogo {
+	float: left;
+	padding: 6px;
+	width: 160px;
+}
+
+div#headerLogo img {
+	width: inherit;
+}
+
+div#headerBanner {
+	position: relative;
+	margin-left: 6px;
+	float: left;
+	width: 800px;
+}
+
+/* menu bar */
+div#topMenuBar {
+	background-color: #307920;
+	font-size: 16px;
+}
+
+ul#topMenuBarLinks {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+ul#topMenuBarLinks li {
+	display: inline;
+	padding: 36px 4px;
+}
+
+ul#topMenuBarLinks a {
+	text-decoration: none;
+	color: black;
+}
+
+div#bannerText {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 10%;
+}
+span#dulce{
+	font-family: 'Times New Roman', Times, serif; 
+	font-size:40px; 
+	text-transform:uppercase; 
+	font-weight:bold;
+	}
+
+
+
+/* body */
+div#main {
+	height: auto;
+	position: relative;
+	clear: both;
+}
+
+div#imageSlidesHolder {
+	margin: 8px 52px;
+	height: 300px;
+	background-color: gray;
+}
+
+div#pageContents {
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	width: inherit;
+}
+
+div.contentColumn {
+	float: left;
+	height: auto;
+}
+
+div#leftColumn {
+	width: 160px;
+	border-right:solid 1px black;
+}
+
+div#centerColumn {
+	width: 520px;
+	padding: 0px 20px;
+	text-align:justify;
+}
+
+div#rightColumn {
+	width: 200px;
+	
+}
+
+div#footer {
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	text-align: center;
+}
+
+
+
+
