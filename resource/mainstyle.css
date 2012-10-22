@@ -31,10 +31,8 @@ div#centeringDiv {
 div#header {
 	height: 240px;
 	position: relative;
-	/*background-image: url('../images/SAM_0817.JPG');*/
 	background-color: #692079;
 }
-
 
 div#headerLogo {
 	float: left;
@@ -80,14 +78,13 @@ div#bannerText {
 	text-align: center;
 	margin-top: 10%;
 }
+
 span#dulce{
 	font-family: 'Times New Roman', Times, serif; 
 	font-size:40px; 
 	text-transform:uppercase; 
 	font-weight:bold;
 	}
-
-
 
 /* body */
 div#main {
@@ -127,6 +124,10 @@ div#centerColumn {
 
 div#rightColumn {
 	width: 200px;
+	
+}
+
+div#contents {
 	
 }
 

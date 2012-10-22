@@ -94,7 +94,7 @@ CREATE TABLE User_Account (
   first_name VARCHAR(50) NULL,
   birthdate DATE NULL,
   location VARCHAR(255) NULL,
-  password_2 VARCHAR(50) NULL,
+  password VARCHAR(50) NULL,
   PRIMARY KEY(user_id)
 );
 
