@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="resource/mainstyle.css" />
-
-<meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
-<title>Dulce Memorial Services and Chapels | Official Homepage</title>
-</head>
-<body>
 	<div id="centeringDiv">
         <div id="header">
             <div id="headerLogo">
@@ -21,18 +12,10 @@
                         <li><a href="#">Product Reservation</a></li>
                         <li><a href="#">Chapel Schedules</a></li>
                         <li><a href="#">Live Streams</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
                     </ul>
-
                 </div>
-
                 <div id="bannerText">
-
                     <span id= "dulce">Dulce</span> Memorial Services and Chapels
-						
                 </div>
-
             </div>
-
         </div>

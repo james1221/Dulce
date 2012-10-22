@@ -18,6 +18,11 @@ body {
 	background-color:#E0E0E0;
 }
 
+a, a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
 div#centeringDiv {
 	margin-left: auto;
 	margin-right: auto;
@@ -48,29 +53,42 @@ div#headerBanner {
 	position: relative;
 	margin-left: 6px;
 	float: left;
-	width: 800px;
+	width: 802px;
 }
 
 /* menu bar */
 div#topMenuBar {
 	background-color: #307920;
-	font-size: 16px;
+	font-size: 18px;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 ul#topMenuBarLinks {
-	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 36px;
 	list-style-type: none;
-	padding: 0px;
+	padding: 0px 0px;
 }
 
 ul#topMenuBarLinks li {
 	display: inline;
-	padding: 36px 4px;
+	padding: 0px 0px;
+	margin: 0px;
 }
 
 ul#topMenuBarLinks a {
 	text-decoration: none;
 	color: black;
+	padding: 0px 8px;
+	min-width: 80px;
+	margin: 0px;
+}
+
+ul#topMenuBarLinks a:hover {
+	background-color: #692079;
 }
 
 div#bannerText {
@@ -84,9 +102,9 @@ span#dulce{
 	font-size:40px; 
 	text-transform:uppercase; 
 	font-weight:bold;
-	}
+}
 
-/* body */
+/* body elements styles */
 div#main {
 	height: auto;
 	position: relative;
@@ -95,7 +113,7 @@ div#main {
 
 div#imageSlidesHolder {
 	margin: 8px 52px;
-	height: 300px;
+	height: 240px;
 	background-color: gray;
 }
 
@@ -124,18 +142,28 @@ div#centerColumn {
 
 div#rightColumn {
 	width: 200px;
+}
+
+div#leftColumn div {
 	
 }
 
-div#contents {
-	
+form#loginForm input[type="submit"], form#loginForm input[type="button"] {
+	font-family: 'Lao UI','Arial','sans-serif';
+	border: 0px;
+	background-color: #307920;
+	font-size: 14px;
+	color: white;
+	padding: 4px 6px;
 }
 
+/* footer styles */
 div#footer {
 	margin-left: auto;
 	margin-right: auto;
 	clear: both;
 	text-align: center;
+	font-size: 14px;
 }
 
 
