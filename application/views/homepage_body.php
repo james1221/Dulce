@@ -8,11 +8,11 @@
             	    <div id="loginFormDiv">
 	                	<form method="post" id="loginForm">
 							<label>Username</label>
-							<input type="text" />
+							<input type="text" name="loginUsername" />
 							<label>Password</label>                                     		
-	                        <input type="password" />
-	                        <input type="submit" value="Login" />
-	                        <input type="button" value="Signup" />
+	                        <input type="password" name="loginPassword" />
+	                        <input type="submit" value="Log in" />
+	                        <input type="button" value="Sign up" />
 	                    </form>
                     </div>
 				</div>
@@ -32,3 +32,4 @@
 				</div>
 			</div>     
 		</div>
+		

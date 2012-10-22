@@ -157,6 +157,10 @@ form#loginForm input[type="submit"], form#loginForm input[type="button"] {
 	padding: 4px 6px;
 }
 
+div#homeTagline {
+	text-align: center;
+}
+
 /* footer styles */
 div#footer {
 	margin-left: auto;
@@ -164,6 +168,14 @@ div#footer {
 	clear: both;
 	text-align: center;
 	font-size: 14px;
+}
+
+div#footer ul#footerLinksList {
+	list-style-type: none;
+}
+
+ul#footerLinksList li {
+	display: inline;
 }
 
 
