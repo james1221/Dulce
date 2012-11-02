@@ -1,3 +1,4 @@
+	
 	<div id="centeringDiv">
         <div id="header">
             <div id="headerLogo">
@@ -9,14 +10,17 @@
 						<li><a href="#">Home</a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="#">Chapels</a></li>
-                        <li><a href="#">Product Reservation</a></li>
-                        <li><a href="#">Chapel Schedules</a></li>
+                        <li><a href="#">Reservation</a></li>
+                        <li><a href="#">Schedules</a></li>
                         <li><a href="#">Live Streams</a></li>
                     </ul>
+                    
+           
+                    
                 </div>
                 <div id="bannerText">
                     <span id= "dulce">Dulce</span> Memorial Services and Chapels
                 </div>
             </div>
         </div>
-        
+        ul li {
